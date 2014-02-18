@@ -1,0 +1,105 @@
+body{ 
+    background-image:url('background-image:url(http://i.imgur.com/0o8zrzS.png');
+    background-attachment:fixed;
+    background-position:center; 
+}
+
+#definition h1{
+    font-size: 32px;
+    color: #e1e4ff;
+    background-color: rgba(24, 9, 47, 0.86);
+    border: solid 3px rgba(83, 0, 239, 0.85);
+    border-radius: 4px;
+    width: 360px;
+    margin-left: 70px;
+}
+
+#definition h2{
+    font-size: 14px;
+    color: #adbeff;
+    background-color: rgba(24, 9, 47, 0.71);
+    border: solid 2px rgba(83, 0, 239, 0.85);
+    border-radius: 4px;
+    width: 360px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 15px;
+}
+
+#definition h1 h2{
+    color: white;
+    font-size: 12px;
+    font-family: Ariel;
+    background-color: #18092f;
+    border-radius: 4px;
+}
+
+#about p{
+    color: rgba(194, 211, 255, 0.94);
+    font-size: 14px;
+    font-family: Ariel;
+    background-color: rgba(24, 9, 47, 0.65);
+    width: 150px;
+    height: 410px;
+    border: solid 5px rgb(26, 0, 75);
+    border-radius: 10px;
+    position: fixed;
+    left: 540px;
+}
+
+#welcome h1{
+    color: #97bfff;
+    font-size: 18px;
+    font-family: Ariel;
+    background-color: #18092f;
+    width: 510px;
+    border: solid 2px rgba(212, 189, 255, 0.64);
+    border-radius: 4px;
+}
+
+#welcome p{
+    color: #b6d2ff;
+    font-size: 12px;
+    font-family: Ariel;
+    background-color: #18092f;
+    width: 510px;
+    border: solid 2px rgba(212, 189, 255, 0.64);
+    border-radius: 4px;
+}
+
+#welcome {
+    background-color: rgba(182, 210, 255, 0.42);
+    width: 514px;
+    height: 170px;
+    border: solid 3px #9300ff;
+    position: relative;
+    border-radius: 4px;
+}
+
+#content {
+    background-color: rgba(0, 255, 20, 0.22);
+    position: relative;
+    width: 520px;
+    border-radius: 4px;
+}
+
+#content ul h1{
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 26px;
+    font-family: Courier;
+    background-color: rgba(0, 255, 39, 0.42);
+    width: 400px;
+    border-radius: 10px;
+    top: 10px;
+    text-align: center;
+}
+
+#content p{
+    color: #f500ff;
+    font-size: 14px;
+    font-family: Ariel;
+    background-color: rgba(24, 9, 47, 0.72);
+    width: 400px;
+    position: relative;
+    bottom: 13px;
+}
