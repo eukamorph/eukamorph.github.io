@@ -44,8 +44,8 @@ body{
     border: solid 5px rgb(26, 0, 75);
     border-radius: 10px;
     position: fixed;
-    left: 540px;
-    margin-left: 10px;
+    left: 550px;
+    bottom: 115px;
 }
 
 #welcome h1{
