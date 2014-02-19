@@ -45,6 +45,7 @@ body{
     border-radius: 10px;
     position: fixed;
     left: 540px;
+    margin-left: 10px;
 }
 
 #welcome h1{
