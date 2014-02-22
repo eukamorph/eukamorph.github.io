@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" media="all"/>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scollTo.js"></script>
         <title>a page full of glitter</title>
     </head>
     <body style="background-image:url(http://i.imgur.com/0o8zrzS.png)">
+    <div id="w">
+    <div id="content">
+      <nav id="stickynav">
+        <ul id="nav" class="clearfix">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#art">Art</a></li>
+        </ul>
+      </nav>
+        <div class="gifs">
+         <img src="http://i.imgur.com/kVkkSUO.gif" alt="catsoup1"><img src="http://files.myopera.com/Sk8r644/albums/303948/globe.gif" alt="tripball1" width="70" height="70">
+        </div>
         <div id="definition">
             <h1>
             <img src="http://coolchaser-static.coolchaser.com/images/themes/t/-i260.photobucket.com-albums-ii25-TaylorTeel-z74420225.gif" alt="shroom" width="50" height="50"> Eukamorphology <img src="http://coolchaser-static.coolchaser.com/images/themes/t/-i260.photobucket.com-albums-ii25-TaylorTeel-z74420225.gif" alt="shroom" width="50" height="50">
             </h1>
-            <h2>Eukamorphology is the study of all things and thangs that transform and transfigurize into other things and thangs.
-            </h2>
+            <h3>Eukamorphology is the study of all things and thangs that transform and transfigurize into other things and thangs.
+            </h3>
         </div>
+        
+      <section id="about" class="section">
+      <h2>About</h2>
         <div id="about">
+            <img src="http://www.danjco.com/piccolo_blasting1.gif" alt="piccolo1" width="150" height="96">
             <p>
-                <img src="http://www.danjco.com/piccolo_blasting1.gif" alt="piccolo1" width="150" height="96">
-                <br>Hello, this is Envix and I will be your guide for this webpage you've happened to stumble upon. This is a site for entertainment. Personal entertainment, very personal. However this "inter-net" is a good way to extricate that personal stuff into other dimensions and temporal modalities. This also allows for ever-expanding eukamorphization within the system. I created the eukamorph repository with the intention to spread cool stuff around, and if you like what you see then stick around. Stay tuned for more updates. There are always updates, of some form or another.
-                <br><br><img src="http://i.imgur.com/kVkkSUO.gif" alt="catsoup1"><img src="http://files.myopera.com/Sk8r644/albums/303948/globe.gif" alt="tripball1" width="70" height="70">
+                Hello, this is Envix and I will be your guide for this webpage you've happened to stumble upon. This is a site for entertainment. Personal entertainment, very personal. However this "inter-net" is a good way to extricate that personal stuff into other dimensions and temporal modalities. This also allows for ever-expanding eukamorphization within the system. I created the eukamorph repository with the intention to spread cool stuff around, and if you like what you see then stick around. Stay tuned for more updates. There are always updates, of some form or another.
             </p>
         </div>
-        <div id="welcome">
-            <h1>Welcome to the internal network. This is the Eukamorph portal.
-            </h1>
+      </section>
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+            <div id="welcome">
+                <h1>Welcome to the internal network. This is the Eukamorph portal.
+                </h1>
             <p>This is a page dedicated to all the wonderful creations of nature. We here at eukamorph define "nature" as everything that exists. If it doesn't exist, it doesn't belong here. If you believe you have a wonderful creation of nature (any form, doesn't matter), then please contact me with what you've got. Tell me where it came from, how it came to be, how you came to behold it, and how you came to bring it to me. Whether you created it yourself or discovered it elsewhere in nature, I will post the content here if I deem it wonderful.
             </p>
             <form method="post" action="mailto:evansb854@gmail.com" >
             <input type="submit" value="Send Email" /> 
             </form>
-        </div>
-        <div id="content">
-            <ul>
-                <h1>Sounds:</h1>
+            </div>
+      </section>
+        
+      <section id="music" class="section">
+      <h2>Music</h2>
                 <iframe width="400" height="140" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122519524&amp;auto_play=false&amp;hide_related=false&amp;visual=true">
                 </iframe>
                 <p>Moneaux - LSDMT (Prod. Shakles)</p>
@@ -39,9 +60,9 @@
                 <p>Envix - Newer Dreams</p>
                 <iframe width="400" height="140" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/14335054&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
                 <p>Kayimbo - Something something version e3 almost done</p>
-            </ul>
-            <ul>
-                <h2>Art:</h2>
+      </section>
+      <section id="art" class="section">
+      <h2>Art</h2>
                     <script type="text/javascript">
                     //this function opens one and closes the other
                     function showCloseLevel(idOpen, idClose) {
@@ -62,8 +83,18 @@
                 <a href="javascript:showCloseLevel('blooper1', 'blooper1big')"><img src="http://fc08.deviantart.net/fs71/i/2012/008/a/6/blooper_by_ellelala-d4lpe1d.png" id="blooper1big" style="display:none"></a>
                 
                 <a href="javascript:showCloseLevel('alice2big', 'alice2')"><img src="http://fc01.deviantart.net/fs70/f/2010/142/a/9/a9d5023741781dab1c5fc7ce3588c5b2.png" id="alice2" width="215" height="204"></a>
-                <a href="javascript:showCloseLevel('alice2', 'alice2big')"><img src="http://fc01.deviantart.net/fs70/f/2010/142/a/9/a9d5023741781dab1c5fc7ce3588c5b2.png" id="alice2big" style="display:none"></a>
-            </ul>
-        </div>
+                <a href="javascript:showCloseLevel('alice2', 'alice2big')"><img src="http://fc01.deviantart.net/fs70/f/2010/142/a/9/a9d5023741781dab1c5fc7ce3588c5b2.png" id="alice2big" style="display:none"></a>          
+      </section>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+        
+        <script type="text/javascript">
+            $(function(){
+            $("#nav a").click(function(e){
+            e.preventDefault();
+            $('html,body').scrollTo(this.hash,this.hash); 
+            });
+            });
+        </script>
     </body>
 </html>
