@@ -5,6 +5,32 @@ body{
     background-attachment:fixed;
 }
 
+#mainsite {
+    border: solid 1px #8fa0fc;
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(0, 98, 255, 0.28);
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -50px;
+    height: 20px;
+    width: 60px;
+    color: white
+}
+
+#mainsite:hover {
+    border: solid 1px #8fa0fc;
+    background-color: rgba(144, 186, 255, 0.28);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -50px;
+    height: 20px;
+    width: 60px;
+    color: white
+}
+
 #definition h1{
     text-align: center;
     background-color: rgba(24, 9, 47, 0.86);
