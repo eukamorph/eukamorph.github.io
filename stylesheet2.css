@@ -10,7 +10,7 @@ body{
     position: fixed;
     text-align: center;
     font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.90)
+    background-color: rgba(0, 0, 0, 0.80)
     position: fixed;
     margin-top: 50px;
     margin-left: 50px;
@@ -21,11 +21,11 @@ body{
 
 #mainsite:hover {
     border: solid 1px #8fa0fc;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.90);
     cursor: pointer;
     position: fixed;
-    margin-top: -10px;
-    margin-left: -50px;
+    margin-top: 50px;
+    margin-left: 50px;
     height: 20px;
     width: 60px;
     color: white
