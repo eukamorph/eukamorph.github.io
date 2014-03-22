@@ -10,8 +10,8 @@ body{
     position: fixed;
     text-align: center;
     font-size: 14px;
-    background-color: rgba(0, 98, 255, 0.28);
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.90)
+    position: fixed;
     margin-top: -10px;
     margin-left: -50px;
     height: 20px;
@@ -21,7 +21,7 @@ body{
 
 #mainsite:hover {
     border: solid 1px #8fa0fc;
-    background-color: rgba(144, 186, 255, 0.28);
+    background-color: rgba(0, 0, 0, 0.75);
     cursor: pointer;
     position: fixed;
     margin-top: -10px;
