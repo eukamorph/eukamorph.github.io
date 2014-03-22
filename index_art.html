@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <title>contact</title>
+    </head>
+    <body>
+            <div id="title">eukamorph</div>
+            <div class="navi_bar">
+            <div onclick="#"><a href="index.html" class="btn1"></a></div>
+            <div onclick="#"><a href="index_music.html" class="btn2"></a></div>
+            <div onclick="#"><a href="index_art.html" class="btn3"></a></div>
+            <div onclick="#"><a href="index_contact.html" class="btn4"></a></div>   
+        </div>
+<br>
+        <div id="artist_box">
+            <h1>artists</h1>
+            <ul>jellyfish</ul>
+            <ul>envix</ul>
+            <ul>ALL</ul>
+        </div>
+        <div id="art">
+            
+            <script type="text/javascript">
+                    //this function opens one and closes the other
+                    function showCloseLevel(idOpen, idClose) {
+                    //Show idOpen
+                    document.getElementById(idOpen).style.display = "";
+                    //Close idClose
+                    document.getElementById(idClose).style.display = "none";
+                    }
+            </script>
+            
+            <a href="javascript:showCloseLevel('alice1big', 'alice1')"><img src="http://fc04.deviantart.net/fs70/f/2010/158/9/5/alice_2_by_ellelala.jpg" id="alice1" width="182" height="192"></a>
+                <a href="javascript:showCloseLevel('alice1', 'alice1big')"><img src="http://fc04.deviantart.net/fs70/f/2010/158/9/5/alice_2_by_ellelala.jpg" id="alice1big" style="display:none"></a>
+                
+                <a href="javascript:showCloseLevel('tetra1big', 'tetra1')"><img src="http://i.imgur.com/MjxPqTK.png" id="tetra1" width="126" height="210"></a>
+                <a href="javascript:showCloseLevel('tetra1', 'tetra1big')"><img src="http://i.imgur.com/MjxPqTK.png" id="tetra1big" style="display:none"></a>
+
+                <a href="javascript:showCloseLevel('blooper1big', 'blooper1')"><img src="http://fc08.deviantart.net/fs71/i/2012/008/a/6/blooper_by_ellelala-d4lpe1d.png" id="blooper1" width="225" height="182"></a>
+                <a href="javascript:showCloseLevel('blooper1', 'blooper1big')"><img src="http://fc08.deviantart.net/fs71/i/2012/008/a/6/blooper_by_ellelala-d4lpe1d.png" id="blooper1big" style="display:none"></a>
+                
+                <a href="javascript:showCloseLevel('alice2big', 'alice2')"><img src="http://fc01.deviantart.net/fs70/f/2010/142/a/9/a9d5023741781dab1c5fc7ce3588c5b2.png" id="alice2" width="215" height="204"></a>
+                <a href="javascript:showCloseLevel('alice2', 'alice2big')"><img src="http://fc01.deviantart.net/fs70/f/2010/142/a/9/a9d5023741781dab1c5fc7ce3588c5b2.png" id="alice2big" style="display:none"></a>          
+     
+        </div>
+    </body>
+</html>
