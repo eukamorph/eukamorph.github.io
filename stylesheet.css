@@ -288,12 +288,13 @@ textarea {
 
 .beta {
     border: solid 1px #8fa0fc;
+    position: fixed;
     text-align: center;
     font-size: 14px;
     background-color: rgba(0, 98, 255, 0.28);
     position: absolute;
-    margin-top: 600px;
-    margin-left: 50px;
+    margin-top: -10px;
+    margin-left: -50px;
     height: 20px;
     width: 60px;
     color: white
@@ -304,8 +305,8 @@ textarea {
     background-color: rgba(144, 186, 255, 0.28);
     cursor: pointer;
     position: absolute;
-    margin-top: 600px;
-    margin-left: 50px;
+    margin-top: -10px;
+    margin-left: -50px;
     height: 20px;
     width: 60px;
     color: white
