@@ -288,7 +288,7 @@ textarea {
 
 .beta {
     border: solid 1px #8fa0fc;
-    position: fixed;
+    position: absolute;
     text-align: center;
     font-size: 14px;
     background-color: rgba(0, 98, 255, 0.28);
