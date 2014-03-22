@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <title>contact</title>
+    </head>
+    <body>
+            <div id="title">eukamorph</div>
+            <div class="navi_bar">
+            <div onclick="#"><a href="index.html" class="btn1"></a></div>
+            <div onclick="#"><a href="index_music.html" class="btn2"></a></div>
+            <div onclick="#"><a href="index_art.html" class="btn3"></a></div>
+            <div onclick="#"><a href="index_contact.html" class="btn4"></a></div>
+            </div>
+             <form name="contactform" method="post" action="send_form_email.php">   
+<br>
+<label for='name'>Name: </label>
+<input type="text" name="name" >
+<br>
+<label for='email'>Email: </label>
+<input type="text" name="email" >
+<br>
+<label for='message'>Message:</label>
+<textarea name="message"></textarea>
+<br>
+<label for='uploaded_file'>Select A File To Upload:</label>
+<input type="file" name="uploaded_file">
+
+<input type="submit" value="Submit" name='submit'>
+</form>
+    </body>
+</html>
