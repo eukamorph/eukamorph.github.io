@@ -11,9 +11,9 @@ body{
     text-align: center;
     font-size: 14px;
     background-color: rgba(0, 0, 0, 0.80)
-    position: fixed;
+    position: absolute;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 400px;
     height: 20px;
     width: 60px;
     color: white
@@ -23,9 +23,9 @@ body{
     border: solid 1px #8fa0fc;
     background-color: rgba(0, 0, 0, 0.90);
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 400px;
     height: 20px;
     width: 60px;
     color: white
