@@ -141,6 +141,7 @@ body {
     background-color: rgba(68, 106, 232, 0.47);
     box-shadow: 0px 0px 10px rgb(68, 106, 232);
     cursor: default;
+    text-align: center;
 }
 
 #artist_box ul {
@@ -157,12 +158,15 @@ body {
 
 #artist_box {
     position: fixed;
+    height: 300px;
+    width: 150px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     border: solid 1px rgb(68, 207, 232);
-    margin-right: 860px;
+    margin-left: 170px;
     margin-top: 180px;
     left: 50px;
+    border-radius: 5px;
 }
 
 #art {
@@ -173,8 +177,8 @@ body {
     border: solid 3px white;
     border-radius: 10px;
     position: absolute;
-    margin-left: 200px;
     margin-top: 150px;
+    left: 400px;
 }
 
 .music iFrame{
@@ -293,8 +297,9 @@ textarea {
     text-align: center;
     font-size: 14px;
     background-color: rgba(0, 98, 255, 0.28);
+    position: absolute;
     margin-top: -10px;
-    margin-left: -50px;
+    margin-left: 30px;
     height: 20px;
     width: 60px;
     color: white
@@ -306,7 +311,7 @@ textarea {
     cursor: pointer;
     position: absolute;
     margin-top: -10px;
-    margin-left: -50px;
+    margin-left: 30px;
     height: 20px;
     width: 60px;
     color: white;
