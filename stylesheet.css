@@ -175,7 +175,7 @@ body {
     background-color: rgba(64, 79, 118, 0.4);
     border: solid 3px white;
     border-radius: 10px;
-    position: inherit;
+    position: absolute;
     margin-top: 150px;
     margin-left: 200px;
 }
