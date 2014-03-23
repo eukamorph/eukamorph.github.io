@@ -170,7 +170,7 @@ body {
 
 #art {
     color: white;
-    height: 700px;
+    height: 6150px;
     width: 650px;
     background-color: rgba(64, 79, 118, 0.4);
     border: solid 3px white;
@@ -178,6 +178,12 @@ body {
     position: absolute;
     margin-top: 150px;
     margin-left: 200px;
+}
+
+#art p {
+    position: relative;
+    top: -40px;
+    border:solid 2px rgba(166, 200, 255, 0.44) ;
 }
 
 .music iFrame{
