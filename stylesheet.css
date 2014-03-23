@@ -152,6 +152,7 @@ body {
     border: solid 1px #8fa0fc;
     background-color: rgba(144, 186, 255, 0.28);
     cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(68, 106, 232);
 }
 
 #artist_box {
@@ -302,12 +303,13 @@ textarea {
 
 .beta:hover {
     border: solid 1px #8fa0fc;
-    background-color: rgba(144, 186, 255, 0.28);
+    background-color: rgba(144, 186, 255, 0.37);
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     margin-top: -10px;
     margin-left: -50px;
     height: 20px;
     width: 60px;
-    color: white
+    color: white;
+    box-shadow: 0px 0px 10px rgb(68, 106, 232);
 }
