@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $("#jellyfishart").click(function () {
+    $("#envixarts").click(function () {
         $("#envixarts").hide();
         $("#jellyfisharts").show();
     });
-    $("#envixart").click(function () {
+    $("#jellyfisharts").click(function () {
         $("#jellyfisharts").hide();
         $("#envixarts").show();
     });
