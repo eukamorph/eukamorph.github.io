@@ -11,7 +11,7 @@ body{
     text-align: center;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.20);
-    margin-top: 45px;
+    margin-top: 40px;
     left: 175px;
     height: 20px;
     width: 60px;
@@ -24,7 +24,7 @@ body{
     text-align: center;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.40);
-    margin-top: 45px;
+    margin-top: 40px;
     left: 175px;
     height: 20px;
     width: 60px;
@@ -39,7 +39,6 @@ body{
     width: 300px;
     position: relative;
     margin-left: 270px;
-    margin-top: -50px;
 }
 
 #definition h3{
@@ -89,9 +88,9 @@ body{
 
 #content {
     background-color: rgba(0, 118, 255, 0.2);
-    width: 550px;
     border: solid #90a2ff 2px;
     border-radius: 5px;
+    height: 2500px;
 }
 
 #content h1{
@@ -184,9 +183,9 @@ img { border: 0; max-width: 100%; }
   bottom: 500px;
 }
 
-#stickynav #nav { position: fixed; z-index: 9999; margin-left: -60px; }
-#stickynav #nav li { display: inline; }
-#stickynav #nav li a {
+nav { position: fixed; z-index: 9999; margin-left: -60px; }
+nav li { display: inline; }
+nav li a {
   display: block;
   float: left;
   margin-right: 10px;
@@ -199,12 +198,12 @@ img { border: 0; max-width: 100%; }
   border-radius: 4px;
   color: #c7e3ff;
 }
-#stickynav #nav li a:hover { 
+nav li a:hover { 
   text-decoration: none;
   background: rgba(0, 147, 255, 0.62);
 }
 
-#stickynav #nav li a.nav-active {
+nav li a.nav-active {
   color: #000;
 }
 
