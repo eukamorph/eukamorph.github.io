@@ -11,9 +11,9 @@ body{
     text-align: center;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.20);
-    margin-top: 50px;
+    margin-top: 45px;
     left: 170px;
-    height: 10px;
+    height: 15px;
     width: 60px;
     color: white
 }
@@ -24,9 +24,9 @@ body{
     text-align: center;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.40);
-    margin-top: 50px;
+    margin-top: 45px;
     left: 170px;
-    height: 10px;
+    height: 15px;
     width: 60px;
     color: white
 }
