@@ -184,7 +184,7 @@ strong { font-weight: bold; }
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
-nav { position: fixed; margin-left: -50px; top: 70px; width: 350px;}
+nav { position: fixed; z-index: 9999; margin-left: -50px; top: 70px; width: 350px;}
 nav li { display: inline; }
 nav li a {
   display: block;
