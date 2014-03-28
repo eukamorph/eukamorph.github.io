@@ -22,11 +22,11 @@ $(document).ready(function () {
     });
     
     $("#jellyfishart").click(function () {
-        $(".envix").hide();
+        $(".envix, .envixbig, .jellybig").hide();
         $(".jelly").show();
     });
     $("#envixart").click(function () {
-        $(".jelly").hide();
+        $(".jelly, .jellybig, .envixbig").hide();
         $(".envix").show();
     });
     $("#allart").click(function () {
