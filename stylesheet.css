@@ -190,18 +190,17 @@ body {
 
 #art {
     color: white;
-    height: 6800px;
+    height: 100%;
     width: 500px;
     background-color: rgba(64, 79, 118, 0.4);
     border: solid 3px white;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 230px;
 }
 
 #art p {
-    position: relative;
     top: -40px;
     border:solid 2px rgba(166, 200, 255, 0.44) ;
     font-family: courier;
