@@ -1,24 +1,28 @@
 /*global $*/
 $(document).ready(function () {
     "use strict";
+    $("#asqd").click(function () {
+        $(".envixc, .kayimboc, .zer0fuxc, .futuresensec").hide();
+        $(".asqdc").show();
+    });
     $("#envix").click(function () {
-        $(".kayimboc, .zer0fuxc, .futuresensec").hide();
+        $(".asqdc, .kayimboc, .zer0fuxc, .futuresensec").hide();
         $(".envixc").show();
     });
     $("#kayimbo").click(function () {
-        $(".envixc, .zer0fuxc, .futuresensec").hide();
+        $(".asqdc, .envixc, .zer0fuxc, .futuresensec").hide();
         $(".kayimboc").show();
     });
     $("#futuresense").click(function () {
-        $(".kayimboc, .zer0fuxc, .envixc").hide();
+        $(".asqdc, .kayimboc, .zer0fuxc, .envixc").hide();
         $(".futuresensec").show();
     });
     $("#zer0fux").click(function () {
-        $(".kayimboc, .envixc, .futuresensec").hide();
+        $(".asqdc, .kayimboc, .envixc, .futuresensec").hide();
         $(".zer0fuxc").show();
     });
     $("#all").click(function () {
-        $(".envixc, .zer0fuxc, .kayimboc, .futuresensec").show();
+        $(".asqdc, .envixc, .zer0fuxc, .kayimboc, .futuresensec").show();
     });
     
     $("#jellyfishart").click(function () {
@@ -30,7 +34,7 @@ $(document).ready(function () {
         $(".envix").show();
     });
     $("#allart").click(function () {
-        $(".envixbig, .jellybig").hide();
-        $(".jelly, .envix").show();
+        $(".envix").show();
+        $(".jelly").show();
     });
 });
