@@ -22,15 +22,15 @@ $(document).ready(function () {
     });
     
     $("#jellyfishart").click(function () {
-        $(".envixarts").hide();
-        $(".jellyfisharts").show();
+        $(".envix").hide();
+        $(".jelly").show();
     });
     $("#envixart").click(function () {
-        $(".jellyfisharts").hide();
-        $(".envixarts").show();
+        $(".jelly").hide();
+        $(".envix").show();
     });
     $("#allart").click(function () {
-        $(".envixarts").show();
-        $(".jellyfisharts").show();
+        $(".envix").show();
+        $(".jelly").show();
     });
 });
