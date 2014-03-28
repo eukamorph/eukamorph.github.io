@@ -30,7 +30,7 @@ $(document).ready(function () {
         $(".envix").show();
     });
     $("#allart").click(function () {
-        $(".envix").show();
-        $(".jelly").show();
+        $(".envixbig, .jellybig").hide();
+        $(".jelly, .envix").show();
     });
 });
