@@ -22,7 +22,7 @@ $(document).ready(function () {
         $(".quantum77zc").show();
     });
     $("#sketchartist").click(function () {
-        $(".asqdc, .kayimboc, .envixc, .zer0fuxc, .futuresensec, .quantum77zc).hide();
+        $(".asqdc, .kayimboc, .envixc, .zer0fuxc, .futuresensec, .quantum77zc").hide();
         $(".sketchartistc").show();
     });
     $("#zer0fux").click(function () {
