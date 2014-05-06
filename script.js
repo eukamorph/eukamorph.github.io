@@ -2,35 +2,35 @@
 $(document).ready(function () {
     "use strict";
     $("#asqd").click(function () {
-        $(".envixc, .kayimboc, .zer0fuxc, .futuresensec, .quantum77zc, .sketch-artistc").hide();
+        $(".envixc, .kayimboc, .zer0fuxc, .futuresensec, .quantum77zc, .sketchartistc").hide();
         $(".asqdc").show();
     });
     $("#envix").click(function () {
-        $(".asqdc, .kayimboc, .zer0fuxc, .futuresensec, .quantum77zc, .sketch-artistc").hide();
+        $(".asqdc, .kayimboc, .zer0fuxc, .futuresensec, .quantum77zc, .sketchartistc").hide();
         $(".envixc").show();
     });
     $("#futuresense").click(function () {
-        $(".asqdc, .kayimboc, .zer0fuxc, .envixc, .quantum77zc, .sketch-artistc").hide();
+        $(".asqdc, .kayimboc, .zer0fuxc, .envixc, .quantum77zc, .sketchartistc").hide();
         $(".futuresensec").show();
     });
     $("#kayimbo").click(function () {
-        $(".asqdc, .envixc, .zer0fuxc, .futuresensec, .quantum77zc, .sketch-artistc").hide();
+        $(".asqdc, .envixc, .zer0fuxc, .futuresensec, .quantum77zc, .sketchartistc").hide();
         $(".kayimboc").show();
     });
     $("#quantum77z").click(function () {
-        $(".asqdc, .kayimboc, .envixc, .zer0fuxc, .futuresensec, .sketch-artistc").hide();
+        $(".asqdc, .kayimboc, .envixc, .zer0fuxc, .futuresensec, .sketchartistc").hide();
         $(".quantum77zc").show();
     });
-    $("#sketch-artist").click(function () {
+    $("#sketchartist").click(function () {
         $(".asqdc, .kayimboc, .envixc, .zer0fuxc, .futuresensec, .quantum77zc).hide();
-        $(".sketch-artistc").show();
+        $(".sketchartistc").show();
     });
     $("#zer0fux").click(function () {
-        $(".asqdc, .kayimboc, .envixc, .futuresensec, .quantum77zc, .sketch-artistc").hide();
+        $(".asqdc, .kayimboc, .envixc, .futuresensec, .quantum77zc, .sketchartistc").hide();
         $(".zer0fuxc").show();
     });
     $("#all").click(function () {
-        $(".asqdc, .envixc, .zer0fuxc, .kayimboc, .futuresensec, .quantum77zc, .sketch-artistc, .zer0fuxc").show();
+        $(".asqdc, .envixc, .zer0fuxc, .kayimboc, .futuresensec, .quantum77zc, .sketchartistc, .zer0fuxc").show();
     });
     
     $("#jellyfishart").click(function () {
