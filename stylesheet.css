@@ -43,6 +43,7 @@ body {
     margin-left: 25px;
     margin-top: 80px;
     background-color: rgba(234, 248, 255, 0.3);
+    padding: 2px;
 }
 
 #greeting_box h1 {
@@ -54,6 +55,7 @@ body {
     border: solid 1.5px rgba(69, 79, 181, 0.71);
     border-radius: 5px;
     background-color: rgba(199, 235, 255, 0.8);
+    padding: 2px;
 }
 
 #greeting_box p {
@@ -64,6 +66,7 @@ body {
     border: solid 1.5px rgba(69, 79, 181, 0.52);
     border-radius: 5px;
     background-color: rgba(199, 235, 255, 0.8);
+    padding: 2px;
 }
 
 #news_box {
@@ -78,6 +81,7 @@ body {
     margin-top: 80px;
     margin-left: 630px;
     background-color: rgba(223, 233, 239, 0.88);
+    padding: 2px;
 }
 
 #news_box h1 {
@@ -92,6 +96,7 @@ body {
     background-color: #abc3d1;
     position: absolute;
     margin-left: 10px;
+    padding: 2px;
 }
 
 #news_box p1 {
@@ -100,6 +105,7 @@ body {
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 2px;
 }
 
 #news_box h2 {
@@ -115,6 +121,7 @@ body {
     position: absolute;
     margin-left: 10px;
     margin-top: 170px;
+    padding: 2px;
 }
 
 #news_box p2 {
@@ -123,6 +130,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 200px;
+    padding: 2px;
 }
 
 #break1 {
