@@ -357,17 +357,3 @@ body form{
     border: solid 2px rgb(56, 74, 134);
     border-radius: 2px;
 }
-
-form {
-    font-family: courier;
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.69);
-    border: solid 2px white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px white;
-    top: 170px;
-    left: 450px;
-    position: absolute;
-    height: 370px;
-    width: 240px;
-}
