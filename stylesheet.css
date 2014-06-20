@@ -170,7 +170,7 @@ body {
     border: solid 1px #8fa0fc;
     background-color: rgba(144, 186, 255, 0.28);
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgb(68, 106, 232);
+    box-shadow: 0px 0px 5px rgb(68, 106, 232);
     height: 30px;
     text-align: center;
     font-size: 16px;
@@ -181,13 +181,17 @@ body {
 }
 
 #artist_box {
+    font-family: courier;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.69);
+    border: solid 2px white;
+    box-shadow: 0px 0px 5px white;
+    height: 370px;
+    width: 240px;
     position: fixed;
-    height: auto;
-    width: 150px;
     color: white;
-    font-size: 16px;
     border: solid 1px rgb(68, 207, 232);
-    margin-top: 180px;
+    margin-top: 170px;
     margin-left: 30px;
     border-radius: 5px;
 }
@@ -222,90 +226,94 @@ body {
 }
 
 .navi_bar a.btn1 {
-	display: block; 
-	width: 112px; height: 36px; 
-	background-image: url(http://i.imgur.com/YXTwn5o.gif); 
+    display: block; 
+    width: 112px; height: 36px; 
+    background-image: url(http://i.imgur.com/YXTwn5o.gif); 
     margin-top: 35px;
     margin-left: 50px;
     position: absolute;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 5px white;
 }
 
 .navi_bar a.btn1:hover {
-	background-position: center;
+    background-position: center;
+    box-shadow: 0px 0px 10px white;
     background-image: url(http://i.imgur.com/YJ750bn.gif); 
 }
 
 .navi_bar a.btn1:active {
-	background-position: bottom; 
+    background-position: bottom; 
 }
 
 .navi_bar a.btn2 {
-	display: block; 
-	width: 112px; height: 36px; 
-	background-image: url(http://i.imgur.com/RqflzwF.gif); 
-	background-position: top; 
+    display: block; 
+    width: 112px; height: 36px; 
+    background-image: url(http://i.imgur.com/RqflzwF.gif); 
+    background-position: top; 
     margin-top: 35px;
     margin-left: 300px;
     position: absolute;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 5px white;
 }
 
 .navi_bar a.btn2:hover {
-	background-position: center;
+    background-position: center;
+    box-shadow: 0px 0px 10px white;
     background-image: url(http://i.imgur.com/5s4u8EE.gif); 
 }
 
 .navi_bar a.btn2:active {
-	background-position: bottom; 
+    background-position: bottom; 
 }
 
 .navi_bar a.btn3 {
-	display: block; 
-	width: 112px; height: 36px; 
-	background-image: url(http://i.imgur.com/MRJq72Y.gif); 
-	background-position: top; 
+    display: block; 
+    width: 112px; height: 36px; 
+    background-image: url(http://i.imgur.com/MRJq72Y.gif); 
+    background-position: top; 
     margin-top: 35px;
     margin-left: 550px;
     position: absolute;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 5px white;
 }
 
 .navi_bar a.btn3:hover {
-	background-position: center;
+    background-position: center;
+    box-shadow: 0px 0px 10px white;
     background-image: url(http://i.imgur.com/GVHAw5m.gif);
 }
 
 .navi_bar a.btn3:active {
-	background-position: bottom; 
+    background-position: bottom; 
 }
 
 .navi_bar a.btn4 {
-	display: block; 
-	width: 112px; height: 36px;  
-	background-image: url(http://i.imgur.com/W3mdFat.gif); 
-	background-position: top; 
+    display: block; 
+    width: 112px; height: 36px;  
+    background-image: url(http://i.imgur.com/W3mdFat.gif); 
+    background-position: top; 
     margin-top: 35px;
     margin-left: 800px;
     position: absolute;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 5px white;
 }
 
 .navi_bar a.btn4:hover {
-	background-position: center;
+    background-position: center;
+    box-shadow: 0px 0px 10px white;
     background-image: url(http://i.imgur.com/Zk1mZEX.gif); 
 }
 
 .navi_bar a.btn4:active {
-	background-position: bottom; 
+    background-position: bottom; 
 }
 
 textarea {
@@ -348,4 +356,18 @@ body form{
     opacity: 0.9;
     border: solid 2px rgb(56, 74, 134);
     border-radius: 2px;
+}
+
+form {
+    font-family: courier;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.69);
+    border: solid 2px white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    top: 170px;
+    left: 450px;
+    position: absolute;
+    height: 370px;
+    width: 240px;
 }
