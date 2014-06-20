@@ -191,7 +191,8 @@ body {
 #art {
     color: white;
     height: 100%;
-    width: 500px;
+    width: 100%;
+    padding: 50px;
     background-color: rgba(64, 79, 118, 0.4);
     border: solid 3px white;
     border-radius: 10px;
