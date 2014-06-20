@@ -37,16 +37,21 @@ $(document).ready(function () {
         $(".asqdc, .envixc, .zer0fuxc, .kayimboc, .futuresensec, .quantum77zc, .sketchartistc, .zer0fuxc, .remzic").show();
     });
     
+    $("#envixart").click(function () {
+        $(".kayimbo, .kayimbobig, .jelly, .jellybig, .envixbig").hide();
+        $(".envix").show();
+    });
     $("#jellyfishart").click(function () {
-        $(".envix, .envixbig, .jellybig").hide();
+        $(".envix, .envixbig, .kayimbo, .kayimbobig, .jellybig").hide();
         $(".jelly").show();
     });
-    $("#envixart").click(function () {
-        $(".jelly, .jellybig, .envixbig").hide();
-        $(".envix").show();
+    $("#kayimboart").click(function () {
+        $(".jelly, .jellybig, .envix, .envixbig, .kayimbobig").hide();
+        $(".kayimbo").show();
     });
     $("#allart").click(function () {
         $(".envix").show();
         $(".jelly").show();
+        $(".kayimbo").show();
     });
 });
