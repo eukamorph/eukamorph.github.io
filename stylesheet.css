@@ -181,17 +181,13 @@ body {
 }
 
 #artist_box {
-    font-family: courier;
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.69);
-    border: solid 2px white;
-    box-shadow: 0px 0px 5px white;
-    height: 370px;
-    width: 240px;
     position: fixed;
+    height: auto;
+    width: 150px;
     color: white;
+    font-size: 16px;
     border: solid 1px rgb(68, 207, 232);
-    margin-top: 170px;
+    margin-top: 180px;
     margin-left: 30px;
     border-radius: 5px;
 }
