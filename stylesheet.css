@@ -189,6 +189,7 @@ body {
 }
 
 #art {
+    padding: 10px;
     color: white;
     height: 100%;
     width: 500px;
@@ -198,6 +199,10 @@ body {
     position: relative;
     margin-top: 100px;
     margin-left: 230px;
+}
+
+#art a {
+    margin: 5px 5px 5px 5px;
 }
 
 #art p {
